@@ -4,9 +4,9 @@ import time
 from abc import abstractmethod, ABC
 from typing import TypeVar, Generic, List
 
-from jmetal.config import store
-from jmetal.core.problem import Problem
-from jmetal.core.solution import FloatSolution
+from jmetalpy.config import store
+from jmetalpy.core.problem import Problem
+from jmetalpy.core.solution import FloatSolution
 
 LOGGER = logging.getLogger('jmetal')
 
@@ -75,6 +75,8 @@ class Algorithm(Generic[S, R], threading.Thread, ABC):
 
         self.solutions = self.create_initial_solutions()
         self.solutions = self.evaluate(self.solutions)
+
+        #print('Solutions', self.solutions[0].objectives)
 
         LOGGER.debug('Initializing progress')
         self.init_progress()

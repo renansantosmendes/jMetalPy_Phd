@@ -4,19 +4,19 @@ from typing import TypeVar, List
 import dask
 from distributed import as_completed, Client
 
-from jmetal.algorithm.singleobjective.genetic_algorithm import GeneticAlgorithm
-from jmetal.config import store
-from jmetal.core.algorithm import DynamicAlgorithm, Algorithm
-from jmetal.core.operator import Mutation, Crossover, Selection
-from jmetal.core.problem import Problem, DynamicProblem
-from jmetal.operator import RankingAndCrowdingDistanceSelection, BinaryTournamentSelection
-from jmetal.util.density_estimator import CrowdingDistance
-from jmetal.util.ranking import FastNonDominatedRanking
-from jmetal.util.replacement import RankingAndDensityEstimatorReplacement, RemovalPolicyType
-from jmetal.util.solutions import Evaluator, Generator
-from jmetal.util.solutions.comparator import DominanceComparator, Comparator, RankingAndCrowdingDistanceComparator, \
+from jmetalpy.algorithm.singleobjective.genetic_algorithm import GeneticAlgorithm
+from jmetalpy.config import store
+from jmetalpy.core.algorithm import DynamicAlgorithm, Algorithm
+from jmetalpy.core.operator import Mutation, Crossover, Selection
+from jmetalpy.core.problem import Problem, DynamicProblem
+from jmetalpy.operator import RankingAndCrowdingDistanceSelection, BinaryTournamentSelection
+from jmetalpy.util.density_estimator import CrowdingDistance
+from jmetalpy.util.ranking import FastNonDominatedRanking
+from jmetalpy.util.replacement import RankingAndDensityEstimatorReplacement, RemovalPolicyType
+from jmetalpy.util.solutions import Evaluator, Generator
+from jmetalpy.util.solutions.comparator import DominanceComparator, Comparator, RankingAndCrowdingDistanceComparator, \
     MultiComparator
-from jmetal.util.termination_criterion import TerminationCriterion
+from jmetalpy.util.termination_criterion import TerminationCriterion
 
 S = TypeVar('S')
 R = TypeVar('R')
@@ -33,18 +33,18 @@ R = TypeVar('R')
 class NSGAII(GeneticAlgorithm[S, R]):
 
     def __init__(self,
-                 problem: Problem,
-                 population_size: int,
-                 offspring_population_size: int,
-                 mutation: Mutation,
-                 crossover: Crossover,
-                 selection: Selection = BinaryTournamentSelection(
-                     MultiComparator([FastNonDominatedRanking.get_comparator(),
-                                      CrowdingDistance.get_comparator()])),
-                 termination_criterion: TerminationCriterion = store.default_termination_criteria,
-                 population_generator: Generator = store.default_generator,
-                 population_evaluator: Evaluator = store.default_evaluator,
-                 dominance_comparator: Comparator = store.default_comparator):
+        problem: Problem,
+        population_size: int,
+        offspring_population_size: int,
+        mutation: Mutation,
+        crossover: Crossover,
+        selection: Selection = BinaryTournamentSelection(
+            MultiComparator([FastNonDominatedRanking.get_comparator(),
+                            CrowdingDistance.get_comparator()])),
+        termination_criterion: TerminationCriterion = store.default_termination_criteria,
+        population_generator: Generator = store.default_generator,
+        population_evaluator: Evaluator = store.default_evaluator,
+        dominance_comparator: Comparator = store.default_comparator):
         """
         NSGA-II implementation as described in
 
@@ -64,6 +64,8 @@ class NSGAII(GeneticAlgorithm[S, R]):
         :param crossover: Crossover operator (see :py:mod:`jmetal.operator.crossover`).
         :param selection: Selection operator (see :py:mod:`jmetal.operator.selection`).
         """
+        
+        print('NSGAII - CODE TEST')
         super(NSGAII, self).__init__(
             problem=problem,
             population_size=population_size,

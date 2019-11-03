@@ -1,7 +1,7 @@
 from math import sqrt, pow, sin, pi, cos
 
-from jmetal.core.problem import FloatProblem
-from jmetal.core.solution import FloatSolution
+from jmetalpy.core.problem import FloatProblem
+from jmetalpy.core.solution import FloatSolution
 
 """
 .. module:: ZDT

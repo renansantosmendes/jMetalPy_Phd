@@ -10,7 +10,7 @@ if __name__ == '__main__':
     problem = ZDT1()
     problem.reference_front = read_solutions(filename='resources/reference_front/ZDT1.pf')
 
-    max_evaluations = 1000
+    max_evaluations = 25000
     algorithm = NSGAII(
         problem=problem,
         population_size=100,
@@ -24,6 +24,10 @@ if __name__ == '__main__':
     algorithm.observable.register(observer=VisualizerObserver(reference_front=problem.reference_front))
 
     algorithm.run()
+
+    solutions = [solution.objectives for solution in algorithm.solutions]
+
+    print('Solutions\n', solutions)
     front = algorithm.get_result()
 
     # Plot front

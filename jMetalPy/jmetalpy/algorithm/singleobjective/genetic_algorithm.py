@@ -1,12 +1,12 @@
 from typing import TypeVar, List
 
-from jmetal.config import store
-from jmetal.core.algorithm import EvolutionaryAlgorithm
-from jmetal.core.operator import Mutation, Crossover, Selection
-from jmetal.core.problem import Problem
-from jmetal.util.solutions.evaluator import Evaluator
-from jmetal.util.solutions.generator import Generator
-from jmetal.util.termination_criterion import TerminationCriterion
+from jmetalpy.config import store
+from jmetalpy.core.algorithm import EvolutionaryAlgorithm
+from jmetalpy.core.operator import Mutation, Crossover, Selection
+from jmetalpy.core.problem import Problem
+from jmetalpy.util.solutions.evaluator import Evaluator
+from jmetalpy.util.solutions.generator import Generator
+from jmetalpy.util.termination_criterion import TerminationCriterion
 
 S = TypeVar('S')
 R = TypeVar('R')
