@@ -158,7 +158,6 @@ class DynamicNSGAII(NSGAII[S, R], DynamicAlgorithm):
 
 
 class DistributedNSGAII(Algorithm[S, R]):
-
     def __init__(self,
                  problem: Problem,
                  population_size: int,

@@ -1,12 +1,12 @@
-from jmetal.algorithm.multiobjective.gde3 import GDE3
-from jmetal.algorithm.multiobjective.nsgaii import NSGAII
-from jmetal.algorithm.multiobjective.smpso import SMPSO
-from jmetal.core.quality_indicator import *
-from jmetal.lab.experiment import Experiment, Job, generate_summary_from_experiment
-from jmetal.operator import PolynomialMutation, SBXCrossover
-from jmetal.problem import ZDT1, ZDT2, ZDT3
-from jmetal.util.archive import CrowdingDistanceArchive
-from jmetal.util.termination_criterion import StoppingByEvaluations
+from jmetalpy.algorithm.multiobjective.gde3 import GDE3
+from jmetalpy.algorithm.multiobjective.nsgaii import NSGAII
+from jmetalpy.algorithm.multiobjective.smpso import SMPSO
+from jmetalpy.core.quality_indicator import *
+from jmetalpy.lab.experiment import Experiment, Job, generate_summary_from_experiment
+from jmetalpy.operator import PolynomialMutation, SBXCrossover
+from jmetalpy.problem import ZDT1, ZDT2, ZDT3
+from jmetalpy.util.archive import CrowdingDistanceArchive
+from jmetalpy.util.termination_criterion import StoppingByEvaluations
 
 
 def configure_experiment(problems: dict, n_run: int):

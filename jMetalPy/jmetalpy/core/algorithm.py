@@ -1,12 +1,14 @@
 import logging
 import threading
 import time
+import pandas as pd
 from abc import abstractmethod, ABC
 from typing import TypeVar, Generic, List
 
 from jmetalpy.config import store
 from jmetalpy.core.problem import Problem
 from jmetalpy.core.solution import FloatSolution
+from jmetalpy.core.quality_indicator import *
 
 LOGGER = logging.getLogger('jmetal')
 
@@ -76,6 +78,8 @@ class Algorithm(Generic[S, R], threading.Thread, ABC):
         self.solutions = self.create_initial_solutions()
         self.solutions = self.evaluate(self.solutions)
 
+        hvs = []
+        hvs.append(HyperVolume([11.0, 11.0, 11.0]).compute(self.solutions))
         #print('Solutions', self.solutions[0].objectives)
 
         LOGGER.debug('Initializing progress')
@@ -85,8 +89,11 @@ class Algorithm(Generic[S, R], threading.Thread, ABC):
         while not self.stopping_condition_is_met():
             self.step()
             self.update_progress()
+            hvs.append(HyperVolume([11.0, 11.0, 11.0]).compute(self.solutions))
 
         self.total_computing_time = time.time() - self.start_computing_time
+        pd.DataFrame(data=hvs).to_csv('/home/renansantos/Área de Trabalho/Doutorado/jMetalPy/hv_convergence.csv',index=False)
+        print(hvs)
 
     @abstractmethod
     def get_result(self) -> R:

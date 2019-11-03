@@ -38,3 +38,111 @@
 2019-11-03 15:22:00,250 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.ZDT1
 2019-11-03 15:22:00,251 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
 2019-11-03 15:22:00,251 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.ZDT1
+2019-11-03 15:29:36,133 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 15:29:36,133 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 15:29:36,134 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 15:29:36,134 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 15:39:02,952 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:39:02,952 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:39:02,953 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:39:02,953 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:40:47,757 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:40:47,757 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:40:47,758 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:40:47,758 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:42:20,478 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:42:20,478 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:42:20,479 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:42:20,479 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:44:06,020 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:44:06,020 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:44:06,021 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:44:06,021 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:44:59,658 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:44:59,658 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:44:59,660 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:44:59,660 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:45:16,597 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:45:16,597 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:45:16,600 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:45:16,600 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:46:20,864 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:46:20,864 [MainThread  ] [INFO ]  Output file (function values): data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:46:20,865 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:46:20,865 [MainThread  ] [INFO ]  Output file (variables): data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:46:29,345 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 15:46:29,345 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 15:46:29,346 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 15:46:29,346 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 15:49:44,357 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:49:44,357 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/problem_tag/FUN.1.tsv
+2019-11-03 15:49:44,359 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:49:44,359 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/problem_tag/VAR.1.tsv
+2019-11-03 15:50:31,185 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 15:50:31,185 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 15:50:31,187 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 15:50:31,187 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:27:58,678 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:27:58,678 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:27:58,679 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:27:58,679 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:28:03,773 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:28:03,773 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:28:03,774 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:28:03,774 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:29:20,856 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:29:20,856 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:29:20,858 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:29:20,858 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:29:26,113 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:29:26,113 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:29:26,115 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:29:26,115 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:36:02,198 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:36:02,198 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:36:02,199 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:36:02,199 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:36:17,596 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:36:17,596 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:36:17,597 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:36:17,597 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:37:17,969 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:37:17,969 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:37:17,971 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:37:17,971 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:37:24,092 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:37:24,092 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:37:24,093 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:37:24,093 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:38:52,944 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:38:52,944 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:38:52,947 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:38:52,947 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:38:58,305 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:38:58,305 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:38:58,306 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:38:58,306 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:40:34,940 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:40:34,940 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:40:34,941 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:40:34,941 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:40:53,111 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:40:53,111 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:40:53,112 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:40:53,112 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:46:20,175 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:46:20,175 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:46:20,176 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:46:20,176 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:46:29,797 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:46:29,797 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:46:29,798 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:46:29,798 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:49:10,100 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:49:10,100 [MainThread  ] [INFO ]  Output file (function values): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/FUN.1.tsv
+2019-11-03 16:49:10,101 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:49:10,101 [MainThread  ] [INFO ]  Output file (variables): /home/renansantos/Área de Trabalho/data/NSGAII/DTLZ2/VAR.1.tsv
+2019-11-03 16:49:25,210 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:49:25,210 [MainThread  ] [INFO ]  Output file (function values): FUN.NSGAII.DTLZ2
+2019-11-03 16:49:25,211 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
+2019-11-03 16:49:25,211 [MainThread  ] [INFO ]  Output file (variables): VAR.NSGAII.DTLZ2
