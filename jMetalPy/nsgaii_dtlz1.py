@@ -11,9 +11,9 @@ from jmetalpy.lab.experiment import Experiment, Job, generate_summary_from_exper
 
 if __name__ == '__main__':
     problem = DTLZ2()
-    problem.reference = '../../resources/reference_front/DTLZ2.3D.pf'
+    #problem.reference = '../../resources/reference_front/DTLZ2.3D.pf'
 
-    max_evaluations = 25000
+    max_evaluations = 2500
     algorithm = NSGAII(
         problem=problem,
         population_size=100,
@@ -63,3 +63,16 @@ if __name__ == '__main__':
     print('Algorithm (continuous problem): ' + algorithm.get_name())
     print('Problem: ' + problem.get_name())
     print('Computing time: ' + str(algorithm.total_computing_time))
+    print('Size of the last front', len(front))
+    
+    # pareto_dominance = DominanceComparator()
+    # non_dominated_solutions = []
+    # for i in range(len(front)):
+    #     for j in range(len(front)):
+    #         if i != j:
+    #             if pareto_dominance.compare(front[i],front[j]) == 0:
+    #                 non_dominated_solutions.append(front[i])
+    
+    from jmetalpy.util.ranking import FastNonDominatedRanking                
+    print('Non-dominated solutions size',
+           len(FastNonDominatedRanking().compute_ranking(front,100)))
