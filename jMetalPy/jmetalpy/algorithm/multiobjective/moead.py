@@ -5,19 +5,19 @@ from typing import TypeVar, List
 
 import numpy as np
 
-from jmetal.algorithm.singleobjective.genetic_algorithm import GeneticAlgorithm
-from jmetal.config import store
-from jmetal.core.operator import Mutation
-from jmetal.core.problem import Problem
-from jmetal.operator import DifferentialEvolutionCrossover, NaryRandomSolutionSelection
-from jmetal.util.aggregative_function import AggregativeFunction
-from jmetal.util.constraint_handling import feasibility_ratio, \
+from jmetalpy.algorithm.singleobjective.genetic_algorithm import GeneticAlgorithm
+from jmetalpy.config import store
+from jmetalpy.core.operator import Mutation
+from jmetalpy.core.problem import Problem
+from jmetalpy.operator import DifferentialEvolutionCrossover, NaryRandomSolutionSelection
+from jmetalpy.util.aggregative_function import AggregativeFunction
+from jmetalpy.util.constraint_handling import feasibility_ratio, \
     overall_constraint_violation_degree, is_feasible
-from jmetal.util.density_estimator import CrowdingDistance
-from jmetal.util.neighborhood import WeightVectorNeighborhood
-from jmetal.util.ranking import FastNonDominatedRanking
-from jmetal.util.solutions import Evaluator, Generator
-from jmetal.util.termination_criterion import TerminationCriterion, StoppingByEvaluations
+from jmetalpy.util.density_estimator import CrowdingDistance
+from jmetalpy.util.neighborhood import WeightVectorNeighborhood
+from jmetalpy.util.ranking import FastNonDominatedRanking
+from jmetalpy.util.solutions import Evaluator, Generator
+from jmetalpy.util.termination_criterion import TerminationCriterion, StoppingByEvaluations
 
 S = TypeVar('S')
 R = List[S]
@@ -26,18 +26,18 @@ R = List[S]
 class MOEAD(GeneticAlgorithm):
 
     def __init__(self,
-                 problem: Problem,
-                 population_size: int,
-                 mutation: Mutation,
-                 crossover: DifferentialEvolutionCrossover,
-                 aggregative_function: AggregativeFunction,
-                 neighbourhood_selection_probability: float,
-                 max_number_of_replaced_solutions: int,
-                 neighbor_size: int,
-                 weight_files_path: str,
-                 termination_criterion: TerminationCriterion = store.default_termination_criteria,
-                 population_generator: Generator = store.default_generator,
-                 population_evaluator: Evaluator = store.default_evaluator):
+        problem: Problem,
+        population_size: int,
+        mutation: Mutation,
+        crossover: DifferentialEvolutionCrossover,
+        aggregative_function: AggregativeFunction,
+        neighbourhood_selection_probability: float,
+        max_number_of_replaced_solutions: int,
+        neighbor_size: int,
+        weight_files_path: str,
+        termination_criterion: TerminationCriterion = store.default_termination_criteria,
+        population_generator: Generator = store.default_generator,
+        population_evaluator: Evaluator = store.default_evaluator):
         """
         :param max_number_of_replaced_solutions: (eta in Zhang & Li paper).
         :param neighbourhood_selection_probability: Probability of mating with a solution in the neighborhood rather

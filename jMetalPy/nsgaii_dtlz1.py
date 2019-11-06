@@ -13,7 +13,7 @@ if __name__ == '__main__':
     problem = DTLZ2()
     #problem.reference = '../../resources/reference_front/DTLZ2.3D.pf'
 
-    max_evaluations = 2500
+    max_evaluations = 4000
     algorithm = NSGAII(
         problem=problem,
         population_size=100,

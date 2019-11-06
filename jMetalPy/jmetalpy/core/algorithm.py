@@ -78,9 +78,11 @@ class Algorithm(Generic[S, R], threading.Thread, ABC):
         self.solutions = self.create_initial_solutions()
         self.solutions = self.evaluate(self.solutions)
 
+        #print('solution type =',type(self.solutions[0]))
         hvs = []
-        hvs.append(HyperVolume([11.0, 11.0, 11.0]).compute(self.solutions))
-        #print('Solutions', self.solutions[0].objectives)
+        print('Solutions', self.solutions[0].objectives)
+        hvs.append(HyperVolume([11.0, 11.0, 11.0, 11.0]).compute(self.solutions))
+        
 
         LOGGER.debug('Initializing progress')
         self.init_progress()
@@ -89,7 +91,7 @@ class Algorithm(Generic[S, R], threading.Thread, ABC):
         while not self.stopping_condition_is_met():
             self.step()
             self.update_progress()
-            hvs.append(HyperVolume([11.0, 11.0, 11.0]).compute(self.solutions))
+            hvs.append(HyperVolume([11.0, 11.0, 11.0, 11.0]).compute(self.solutions))
 
         self.total_computing_time = time.time() - self.start_computing_time
         pd.DataFrame(data=hvs).to_csv('/home/renansantos/Área de Trabalho/Doutorado/jMetalPy/hv_convergence.csv',index=False)

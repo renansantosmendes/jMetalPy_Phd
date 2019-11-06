@@ -4,8 +4,8 @@ from typing import TypeVar, Generic, List
 
 import numpy
 
-from jmetal.core.solution import Solution
-from jmetal.util.ckecking import Check
+from jmetalpy.core.solution import Solution
+from jmetalpy.util.ckecking import Check
 
 """
 .. module:: neighborhood
@@ -78,7 +78,10 @@ class WeightVectorNeighborhood(WeightNeighborhood):
                         vector = [float(x) for x in line.split()]
                         self.weight_vectors[index][:] = vector
             else:
-                raise FileNotFoundError('Failed to initialize weights: {} not found'.format(file_path))
+                 #raise FileNotFoundError('Failed to initialize weights: {} not found'.format(file_path))
+                weights = numpy.random.rand(number_of_weight_vectors, weight_vector_size)
+                weights = numpy.array([numpy.array(w/sum(w)) for w in weights])
+                self.weight_vectors = weights
 
     def __initialize_neighborhood(self) -> None:
         distance = numpy.zeros((len(self.weight_vectors), len(self.weight_vectors)))
