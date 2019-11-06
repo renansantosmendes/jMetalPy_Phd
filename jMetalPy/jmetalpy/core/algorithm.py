@@ -95,7 +95,6 @@ class Algorithm(Generic[S, R], threading.Thread, ABC):
 
         self.total_computing_time = time.time() - self.start_computing_time
         pd.DataFrame(data=hvs).to_csv('/home/renansantos/Área de Trabalho/Doutorado/jMetalPy/hv_convergence.csv',index=False)
-        print(hvs)
 
     @abstractmethod
     def get_result(self) -> R:
