@@ -36,7 +36,7 @@ setup(
         'matplotlib>=3.0.2',
         'statsmodels>=0.9.0',
         'dask[complete]==1.2.2',
-        'distributed==1.28.1',
+        'distributed==2021.10.0',
         'scipy==1.3.0'
     ],
     tests_require=[
